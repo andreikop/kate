@@ -395,7 +395,7 @@
     </context>
     <context attribute="C2HS Directive" lineEndContext="#pop" name="c2hs include">
       <RegExpr attribute="Keyword" context="#stay" String="include" />
-      <RegExpr                     context="#stay" String="*.>$" />
+      <RegExpr                     context="#stay" String=".*>$" />
     </context>
     <context attribute="C2HS Directive" lineEndContext="#stay" name="c2hs pointer">
       <keyword attribute="Keyword" context="#stay" String="c2hs_keywords" />

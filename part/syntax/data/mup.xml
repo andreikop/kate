@@ -740,7 +740,7 @@
 
       <context attribute="Normal Text" lineEndContext="#pop" name="Location"
 		fallthrough="true" fallthroughContext="#pop">
-	<RegExpr attribute="Normal Text" context="#stay" String="[+-\s]+" />
+	<RegExpr attribute="Normal Text" context="#stay" String="[\s+-]+" />
 	<Float attribute="Normal Text" context="#stay" />
 	<RegExpr attribute="Location" context="#stay" String="\btime\b" />
 	<IncludeRules context="Macro" />
