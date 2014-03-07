@@ -38,6 +38,7 @@
       <item> DANGER </item>
       <item> HACK </item>
       <item> SECURITY </item>
+      <item> XXX </item>
     </list>
     <list name="alerts_mid">
       <item> BUG </item>
