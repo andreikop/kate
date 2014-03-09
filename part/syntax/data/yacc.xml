@@ -128,8 +128,8 @@ This code is released under the LGPL as part of kdelibs/kate.
   <context name="Normal C Bloc" attribute="Normal Text" lineEndContext="#stay">
     <DetectChar attribute="Normal Text" context="Normal C Bloc" char="{" beginRegion="bloc" />
     <DetectChar attribute="Normal Text" context="#pop" char="}" endRegion="bloc" />
-    <IncludeRules context="##C++" />
     <DetectChar attribute="Directive" context="Dol" char="$" />
+    <IncludeRules context="##C++" />
   </context>
   <context name="Dol" attribute="Normal Text" fallthrough="true" fallthroughContext="DolEnd">
     <RegExpr attribute="Data Type" context="DolEnd" String="&lt;[^&gt;]+&gt;" />
